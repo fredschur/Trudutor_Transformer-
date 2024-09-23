@@ -10,6 +10,10 @@ Este notebook implementa um modelo Transformer para traduzir sentenças do portu
 
 - **Loop de Treinamento**: Implementa um loop de treinamento com cálculo de perda e atualizações de gradientes usando o otimizador Adam. O modelo é treinado ao longo de várias épocas com checkpoints para monitorar o progresso.
 
+- **Traduz Sentenças**: Após o treinamento, o modelo pode traduzir sentenças em português para o inglês usando os pesos treinados.
+
+- **Fornece Funções Utilitárias**: Inclui funções para avaliar traduções e manipular o processamento de entrada e saída do modelo.
+
 ## Positivos
 
 - **Implementação Simplificada**: Ao simplificar o código e focar nos componentes essenciais, torna-se mais acessível para aqueles que são novos em Transformers ou em deep learning em geral.
